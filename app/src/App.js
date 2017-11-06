@@ -21,7 +21,7 @@ const Menu = props => {
           <Link to="/starwars">Star Wars Names</Link>
         </li>
         <li>
-          <Link to="/fortunecookies">Fortune Cookies</Link>
+          <Link to="/fortunecookies">Fortune Cookie Fortunes</Link>
         </li>
         <li>
           <Link to="/emojis">Emojis</Link>
@@ -40,7 +40,7 @@ const App = props => {
           <Route path="/colors" component={Colors} />
           <Route path="/buzzwords" component={Buzzwords} />
           <Route path="/starwars" component={Starwars} />
-          <Route path="/fortunecookie" component={FortuneCookies} />
+          <Route path="/fortunecookies" component={FortuneCookies} />
           <Route path="/emojis" component={Emojis} />
         </Switch>
       </div>
